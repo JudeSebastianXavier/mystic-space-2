@@ -19,7 +19,7 @@
     "test": "vitest --run",
     "format.fix": "prettier --write .",
     "typecheck": "tsc",
-    "deploy": "npm run build:client && gh-pages -d dist/spa"
+    "deploy": "npm run build:client && gh-pages -d dist"
   },
   "dependencies": {
     "dotenv": "^17.2.1",
