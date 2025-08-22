@@ -14,9 +14,8 @@ This project is configured for deployment on GitHub Pages with automatic builds 
 1. Go to your GitHub repository
 2. Click on **Settings** tab
 3. Scroll down to **Pages** section
-4. Under **Source**, select **Deploy from a branch**
-5. Choose **gh-pages** branch and **/(root)** folder
-6. Click **Save**
+4. Under **Source**, select **GitHub Actions**
+5. This will use the workflow we've configured
 
 ### 2. Enable GitHub Actions
 
